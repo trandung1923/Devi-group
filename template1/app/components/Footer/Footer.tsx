@@ -36,14 +36,14 @@ const products: ProductType[] = [
     {
         id: 2,
         section: "Liên hệ",
-        link: ['Địa chỉ :', 'Press', 'Affiliates', 'Hotel owners', 'Partners']
+        link: ['Địa chỉ : ', 'Press', 'Affiliates', 'Hotel owners', 'Partners']
     }
 ]
 
 const footer = () => {
     return (
 
-        <div className="mx-auto max-w-2xl sm:pt-24 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div id="footer" className="mx-auto max-w-2xl sm:pt-24 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="my-12 grid grid-cols-1 gap-y-10 sm:grid-cols-6 lg:grid-cols-12">
 
                 {/* COLUMN-1 */}

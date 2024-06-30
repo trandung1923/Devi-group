@@ -15,11 +15,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#/', current: true },
-    { name: 'Courses', href: '#courses', current: false },
-    { name: 'Mentor', href: '#mentor', current: false },
-    { name: 'Group', href: '/', current: false },
-    { name: 'Testimonial', href: '#testimonial', current: false },
+    { name: 'Giới Thiệu', href: '#/', current: true },
+    { name: 'Hoạt Động', href: '#content', current: false },
+    { name: 'Khóa Học', href: '#courses', current: false },
+    { name: 'Thành Viên', href: '#mentor', current: false },
+    { name: 'Liên Hệ', href: '#footer', current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -100,12 +100,12 @@ const Navbar = () => {
 
                         {/* SIGNIN DIALOG */}
 
-                        <Signdialog />
+                        {/* <Signdialog /> */}
 
 
                         {/* REGISTER DIALOG */}
 
-                        <Registerdialog />
+                        {/* <Registerdialog /> */}
 
 
                         {/* DRAWER FOR MOBILE VIEW */}

@@ -24,7 +24,7 @@ const postData: DataType[] = [
         heading2: 'For beginners',
         name: "Dinh Ky Tran",
         imgSrc: '/assets/courses/courseone.png',
-        students: 150,
+        students: 15,
         classes: 12,
         price: 20,
         rating: 4.7,
@@ -34,7 +34,7 @@ const postData: DataType[] = [
         heading2: 'Practice speaking skills',
         name: "Dinh Ky Tran",
         imgSrc: '/assets/courses/coursetwo.png',
-        students: 130,
+        students: 10,
         classes: 12,
         price: 20,
         rating: 4.7,
@@ -44,7 +44,7 @@ const postData: DataType[] = [
         heading2: 'Study with native teachers',
         name: "Colt stelle",
         imgSrc: '/assets/courses/coursethree.png',
-        students: 120,
+        students: 10,
         classes: 12,
         price: 20,
         rating: 4.7,
@@ -54,7 +54,7 @@ const postData: DataType[] = [
         heading2: '',
         name: "Colt stelle",
         imgSrc: '/assets/courses/courseone.png',
-        students: 150,
+        students: 10,
         classes: 12,
         price: 20,
         rating: 4.7,
@@ -105,8 +105,8 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-8 px-4 lg:px-8 '>
 
                     <div className="sm:flex justify-between items-center">
-                        <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">Popular courses.</h3>
-                        <Link href={'/'} className="text-Blueviolet text-lg font-medium space-links">Explore courses&nbsp;&gt;&nbsp;</Link>
+                        <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">Thông tin khóa học</h3>
+                        {/* <Link href={'/'} className="text-Blueviolet text-lg font-medium space-links">Explore courses&nbsp;&gt;&nbsp;</Link> */}
                     </div>
 
 
@@ -155,7 +155,7 @@ export default class MultipleItems extends Component {
                                             </div>
                                             <div className="flex gap-4">
                                                 <Image src={'/assets/courses/users.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
-                                                <h3 className="text-base font-medium text-black opacity-75">{items.students} students</h3>
+                                                <h3 className="text-base font-medium text-black opacity-75">{items.students} students/class</h3>
                                             </div>
                                         </div>
                                     </div>

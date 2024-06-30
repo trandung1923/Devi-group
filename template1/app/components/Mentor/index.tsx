@@ -13,29 +13,24 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Tổng giám đốc',
+        profession: 'Excecutive Officer',
         name: 'Trần Đình Kỳ',
-        imgSrc: '/assets/mentor/user3.png',
+        imgSrc: '/assets/mentor/trandinhky.JPG',
     },
     {
-        profession: 'Đồng sáng lập công ty',
-        name: 'Shoo Thar Mien',
+        profession: 'Legal Expert',
+        name: 'Jens Neumann',
         imgSrc: '/assets/mentor/user2.png',
     },
     {
-        profession: 'Giáo viên',
-        name: 'Shoo Thar Mien',
+        profession: 'Financial Expert',
+        name: 'Uli Stratmann',
         imgSrc: '/assets/mentor/user1.png',
     },
     {
-        profession: 'Giáo Viên',
-        name: 'Shoo Thar Mien',
+        profession: 'Business Relationship',
+        name: 'Tri Nguyen',
         imgSrc: '/assets/mentor/user3.png',
-    },
-    {
-        profession: 'Thư Ký',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user2.png',
     }
 ]
 
@@ -112,12 +107,12 @@ export default class MultipleItems extends Component {
             ]
         };
 
-
+ 
         return (
             <div className="py-10 sm:py-24 bg-paleblue" id="mentor">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 px-4 lg:px-8 relative'>
-                    <h2 className="lh-82 text-midnightblue text-4xl md:text-55xl text-center md:text-start font-semibold">Meet with our <br /> mentor.</h2>
+                    <h2 className="lh-82 text-midnightblue text-4xl md:text-55xl text-center md:text-start font-semibold">Giới thiệu các thành viên</h2>
 
                     <Slider {...settings}>
                         {postData.map((items, i) => (
